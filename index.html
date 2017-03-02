@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
     <title>Word Play</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
   </head>
   <body>
-
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Word Play</h1>
+      </div>
+      <div id="input-area">
+        <label for="sentenceInput">Enter a sentence</label>
+        <input type="text" id="sentenceInput">
+        <button type="button" class="btn btn-warning" id="changeSentence">Generate new sentence</button>
+      </div>
+<p id="outputSentence"></p>
+    </div>
   </body>
 </html>
